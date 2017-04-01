@@ -1,0 +1,72 @@
+body, p, img, dl, dt, dd, ul, ol, h1, h2, h3, h4, h5, h6 { margin: 0; padding: 0; }
+body { position: relative; font: 12px/24px "Microsoft YaHei", Arial; min-width: 960px; }
+ul, ol ,li{ list-style: none; }
+a{text-decoration: none;}
+img { border: 0 none; }
+input, select { vertical-align: middle; }
+table { border-collapse: collapse; }
+s, em, i { font-style: normal; text-decoration: none; }
+.cf { *zoom: 1; }
+.cf:after { clear: both; content: "."; display: block; height: 0; overflow: hidden; visibility: hidden; zoom: 1; }
+.body{
+    background: #ffffff;
+}
+
+.common-header {
+    width: 100%;
+    height: 50px;
+    background: #ff6666;
+}
+.common-header ul{
+    width: 1140px;
+    margin: auto;
+}
+.common-header ul li{
+    width: 180px;
+    float: left;
+    text-align: center;
+    line-height: 50px;
+    color: #ffffff;
+}
+.common-header ul li:hover{
+    background: #f70446;
+}
+.common-header ul li a{
+    font-size: 14px;
+    color: #ffffff;
+}
+.common-header ul li a:hover{
+    color: #14ff11;
+}
+.common-header .register{
+    margin-right: 14px;
+}
+.common-header .sign-in{
+    margin-left: 14px;
+}
+.common-header .love-food{
+    background: url("../images/common-logo1.png") no-repeat;
+    display: block;
+    width: 140px;
+    background-position: 10px 0;
+
+}
+.common-header .shopping{
+    background: url("../images/common-logo2.png") no-repeat;
+    display: block;
+    width: 130px;
+    background-position: 0 15px;
+    float: left;
+}
+.common-header .header-search{
+    background: #ffffff url("../images/common-search.png") no-repeat;
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-position: 12px 17px;
+    float: left;
+}
+.common-header .header-center{
+    margin-left: 320px;
+    margin-right: 260px;
+}
